@@ -96,7 +96,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				naval_torpedo_range_factor = 1 # double the range
+				naval_torpedo_range_factor = 0.5 # double the range
 			}
 		}
 		
@@ -189,13 +189,11 @@ ideas = {
 			picture = jap_zaibatsu
 			
 			modifier = {
-				political_power_cost = 0.25
 				trade_laws_cost_factor = 0.25
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.05
-				consumer_goods_factor = 0.05
 			}
 		}
 
@@ -235,14 +233,12 @@ ideas = {
 			picture = jap_zaibatsu_ally
 			
 			modifier = {
-				political_power_cost = 0.25
 				trade_laws_cost_factor = 0.25
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.10
 				production_speed_arms_factory_factor = 0.10
 				production_speed_dockyard_factor = 0.05
 				industrial_capacity_factory = 0.05
-				consumer_goods_factor = 0.05
 			}
 		}
 
@@ -327,7 +323,6 @@ ideas = {
 				war_support_factor = 0.2
 				mobilization_laws_cost_factor = -0.25
 				justify_war_goal_time = -0.2
-				research_time_factor = 0.05
 				production_speed_industrial_complex_factor = -0.1
 			}
 		}
@@ -1029,43 +1024,7 @@ ideas = {
 			picture = jap_ichi_go
 			
 			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
-			targeted_modifier = {
-				tag = PRC
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
-			targeted_modifier = {
-				tag = SHX
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
-			targeted_modifier = {
-				tag = XSM
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
-			targeted_modifier = {
-				tag = YUN
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
-			targeted_modifier = {
-				tag = GXC
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
-			targeted_modifier = {
-				tag = SIK
+				tag = event_target:WTT_current_china_leader
 				attack_bonus_against = 0.2
 				defense_bonus_against = 0.05
 			}
@@ -1144,9 +1103,9 @@ ideas = {
 			picture = generic_navy_carrier_bonus
 			
 			modifier = {
-				port_strike = 1
-				carrier_capacity_penalty_reduction = -0.5
-				sortie_efficiency = 0.5
+				port_strike = 0.5
+				carrier_capacity_penalty_reduction = -0.25
+				sortie_efficiency = 0.25
 				naval_strike_attack_factor = 0.12
 				naval_strike_targetting_factor = 0.12
 				naval_strike_agility_factor = 0.12
@@ -1231,14 +1190,6 @@ ideas = {
 	political_advisor = {	
 		sanzo_nosaka = {
 			
-			available = {
-				if = {
-					limit = {
-						has_DLC = "Waking the Tiger"
-					}
-					has_completed_focus = JAP_the_unthinkable_option
-				}
-			}
 			allowed = {
 				original_tag = "JAP"
 			}
@@ -1261,12 +1212,7 @@ ideas = {
 		kijuro_shidehara = {
 			
 			available = {
-				if = {
-					limit = {
-						has_DLC = "Waking the Tiger"
-					}
-					has_completed_focus = JAP_strengthen_civilian_government
-				}
+				has_completed_focus = JAP_strengthen_civilian_government
 			}
 			
 			allowed = {
