@@ -428,6 +428,10 @@ technologies = {
 		research_cost = 2
 		start_year = 1941
 		
+		allow = {
+			date > 1939.1.1 
+		}	
+		
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 8 }
@@ -547,6 +551,10 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1939
+		
+		allow = {
+			date > 1937.1.1 
+		}	
 
 		folder = {
 			name = armour_folder
@@ -744,6 +752,10 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 		
 		folder = {
 			name = armour_folder
@@ -944,6 +956,10 @@ technologies = {
 		research_cost = 2
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 10 }
@@ -1119,6 +1135,10 @@ technologies = {
 		
 		research_cost = 2.5
 		start_year = 1945
+		
+		allow = {
+			date > 1943.1.1 
+		}	
 		
 		folder = {
 			name = armour_folder
@@ -1429,6 +1449,10 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1941
 		
+		allow = {
+			date > 1939.1.1 
+		}	
+		
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 8 }
@@ -1572,6 +1596,10 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 10 }
@@ -1700,6 +1728,11 @@ technologies = {
 	
 		research_cost = 2.5
 		start_year = 1943
+		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		folder = {
 			name = armour_folder
 			position = { x = 8 y = 10 }
