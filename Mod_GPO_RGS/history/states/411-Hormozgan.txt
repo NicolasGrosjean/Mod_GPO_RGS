@@ -4,7 +4,9 @@ state={
 	name="STATE_411" # Isfahan
 	manpower = 885272
 	resources={
-		oil=12 # was: 14
+		oil=16
+		aluminium=8
+		steel=8
 	}
 	state_category = rural
 	

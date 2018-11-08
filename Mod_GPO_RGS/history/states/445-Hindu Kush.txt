@@ -3,6 +3,9 @@ state={
 	id=445
 	name="STATE_445" # Quetta
 	manpower = 405100
+	resources={
+		chromium=8
+	}
 	
 	state_category = wasteland
 

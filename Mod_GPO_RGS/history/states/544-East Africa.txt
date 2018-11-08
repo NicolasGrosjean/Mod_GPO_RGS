@@ -3,6 +3,10 @@ state={
 	id=544
 	name="STATE_544" #Mozambique
 	manpower = 4125000
+	resources={
+		rubber=2
+		aluminium=14
+	}
 	
 	state_category = rural
 	

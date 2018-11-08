@@ -3,6 +3,9 @@ state={
 	id=430
 	name="STATE_430" # East Bengal
 	manpower = 31973300
+	resources={
+		rubber=2
+	}
 	
 	state_category = town
 
