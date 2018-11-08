@@ -20,7 +20,7 @@ equipments = {
 		attack = 1
 		fire_range = 14
 		torpedo_attack = 3
-		sub_attack = 10
+		sub_attack = 20
 		
 		anti_air_attack = 1.5
 		
@@ -71,7 +71,7 @@ equipments = {
 		attack = 2.5
 		fire_range = 15
 		torpedo_attack = 6
-		sub_attack = 13
+		sub_attack = 26
 		
 		anti_air_attack = 2
 		
@@ -114,7 +114,7 @@ equipments = {
 		attack = 3.5
 		fire_range = 16
 		torpedo_attack = 7
-		sub_attack = 16
+		sub_attack = 32
 		
 		anti_air_attack = 4.5
 		
@@ -156,7 +156,7 @@ equipments = {
 		attack = 4
 		fire_range = 17
 		torpedo_attack = 8
-		sub_attack = 20
+		sub_attack = 40
 		
 		anti_air_attack = 5
 		
