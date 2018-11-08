@@ -2112,7 +2112,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = nav_bomber_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = naval_bomber
 			}
 		}
@@ -2713,7 +2713,7 @@ focus_tree = {
 		x = 1
 		y = 4
 		relative_position_id = GER_anti_comitern_pact
-		cost = 10
+		cost = 1
 		historical_ai = {
 			NOT = {
 				any_home_area_neighbor_country = {
@@ -3111,7 +3111,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = GER_demand_memel
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 10	
 			modifier = {
@@ -4127,7 +4127,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = GER_war_with_france
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
