@@ -5,7 +5,10 @@ state={
 	manpower = 547797
 	
 	state_category = rural
-
+	
+	resources={
+		steel=16
+	}
 	history={
 		owner = FRA
 		victory_points = {

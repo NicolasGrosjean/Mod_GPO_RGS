@@ -1,6 +1,9 @@
 state={
 	id=405
-	name="STATE_405"
+	name="STATE_405" #Tashkent
+	resources={
+		chromium=46
+	}
 
 	history={
 		owner = SOV

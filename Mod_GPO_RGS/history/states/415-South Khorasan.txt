@@ -6,6 +6,9 @@ state={
 	
 	state_category = rural
 
+	resources={
+		tungsten=4
+	}
 	history={
 		owner = AFG
 		buildings = {

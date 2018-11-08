@@ -5,6 +5,8 @@ state={
 	manpower = 220000
 	resources={
 		oil=5 # was: 6
+		steel=10
+		aluminium=62 # Luky - was: 82
 	}
 	
 	state_category = pastoral
