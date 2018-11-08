@@ -73,7 +73,7 @@ equipments = {
 		anti_air_attack = 8
 		
 		armor_value = 11
-		evasion = 25
+		evasion = 30
 		
 		surface_detection = 15
 		sub_detection = 5
@@ -111,7 +111,7 @@ equipments = {
 		anti_air_attack = 12
 		
 		armor_value = 12
-		evasion = 28
+		evasion = 40
 		
 		surface_detection = 25
 		sub_detection = 5
@@ -149,7 +149,7 @@ equipments = {
 		anti_air_attack = 18
 		
 		armor_value = 13
-		evasion = 30
+		evasion = 50
 		
 		surface_detection = 40
 		sub_detection = 5
