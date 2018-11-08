@@ -65,7 +65,6 @@ ideas = {
 
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
-				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 				if = {
@@ -133,7 +132,6 @@ ideas = {
 						#}
 					}					
 				}
-				has_war_support > 0.2
 				#Special rules AST in TFV
 				if = {
 					limit = {
@@ -202,7 +200,7 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.075 group = mobilization_laws }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -216,10 +214,6 @@ ideas = {
 						#	}
 						#}
 					}
-				}
-				OR = {
-					has_war_support > 0.6
-					surrender_progress > 0
 				}
 
 				if = {
@@ -304,12 +298,8 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.12.5 group = mobilization_laws }
 				has_war = yes
-				OR = {
-					has_war_support > 0.7
-					surrender_progress > 0
-				}
 				enemies_strength_ratio > 0.75
 				#any_enemy_country = {
 				#	strength_ratio = {
@@ -401,12 +391,9 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.17 group = mobilization_laws }
 				has_war = yes
-				OR = {
-					has_war_support > 0.85
-					surrender_progress > 0.25
-				}
+				
 				enemies_strength_ratio > 1
 				#any_enemy_country = {
 				#	strength_ratio = {
