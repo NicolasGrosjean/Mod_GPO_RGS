@@ -56,18 +56,23 @@ set_technology = {
 	basic_battleship = 1
 	early_battlecruiser = 1
 	early_carrier = 1
-	basic_carrier = 1
+	heavy_battleship = 1
 	transport = 1
 	trench_warfare = 1
 	base_strike = 1
 	synth_oil_experiments = 1
 }
 
-create_import = {
-		resource = oil
-		factories = 2
-		exporter = USA
-}
+add_tech_bonus = {
+				name = naval_bonus
+				bonus = 0.95
+				uses = 1
+				technology = basic_carrier
+									
+			}
+
+
+
 
 1939.1.1 = {
 
@@ -711,6 +716,19 @@ create_navy_leader = {
 				ship_gun_upgrade = 1
 			}
 			obsolete = yes
+		}
+
+               create_equipment_variant = {
+			name = "Yomato Class"
+			type = SH_battleship_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 5
+				ship_engine_upgrade = 0
+				ship_armor_upgrade = 5
+				ship_gun_upgrade = 3
+			}
+			
 		}
 		create_equipment_variant = {
 			name = "Nagato Class"
