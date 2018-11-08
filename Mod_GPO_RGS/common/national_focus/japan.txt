@@ -53,13 +53,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = JAP_the_unthinkable_option
-			if = {
-		    	limit = {
-		    	    has_DLC = "Waking the Tiger"
-		    	}
-		    	custom_effect_tooltip = available_political_advisor
-		    	show_ideas_tooltip = sanzo_nosaka
-			}
 			add_political_power = 200
 		}
 	}
@@ -996,7 +989,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1069,7 +1062,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -1106,7 +1099,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_greater_east_asian_co_prosperity_sphere
 
-		cost = 10
+		cost = 5
 
 		available = { 
 			is_puppet = no 
@@ -1358,7 +1351,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = JAP_strike_south_doctrine
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -1397,7 +1390,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_non_aggression_pact_with_the_soviet_union
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -1439,7 +1432,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_non_aggression_pact_with_the_soviet_union
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1449,17 +1442,6 @@ focus_tree = {
 					has_war = yes
 					NOT = { has_war_with = JAP }
 				}
-			}
-			modifier = {
-				has_war_with = SOV
-				factor = 0
-			}
-			modifier = {
-				has_War_with = event_target:WTT_current_china_leader
-				event_target:WTT_current_china_leader = {
-					surrender_progress < 0.2
-				}
-				factor = 0
 			}
 		}
 
@@ -1498,7 +1480,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_bypass_the_philippines
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 10
@@ -1510,10 +1492,6 @@ focus_tree = {
 				factor = 0
 				ENG = { has_war = no }
 				HOL = { has_war = no }
-			}
-			modifier = {
-				has_war_with = SOV
-				factor = 0
 			}
 		}
 
@@ -1616,7 +1594,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_strike_south_doctrine
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -1640,7 +1618,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			SIA = { country_event = generic.5 }
+			JAP = {
+				set_autonomy = { target = SIA autonomy_state = autonomy_wtt_imperial_protectorate }	
+				}
 		}
 	}
 
@@ -1653,7 +1633,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_strike_on_the_southern_resource_area
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -1744,7 +1724,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -1824,7 +1804,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_purge_the_kodoha_faction
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -2007,10 +1987,10 @@ focus_tree = {
 
 		completion_reward = {
 			528 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = synthetic_refinery
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2031,7 +2011,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_guide_the_zaibatsus
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -2717,9 +2697,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			MAN = {
-				exists = no
-			}
+
 		}
 
 		cancel_if_invalid = yes
@@ -3006,14 +2984,7 @@ focus_tree = {
 					has_government = fascism
 					is_faction_leader = yes
 				}
-				if = {
-					limit = {
-						not = {
-							is_in_faction_with = ROOT
-						}
-					}
-					country_event = generic.2
-				}
+				country_event = generic.2
 				if = {
 					limit = {
 						OR = {
@@ -3208,6 +3179,7 @@ focus_tree = {
 					has_government = fascism
 					is_faction_leader = yes
 				}
+				country_event = generic.2
 				if = {
 					limit = {
 						OR = {
@@ -3870,15 +3842,17 @@ focus_tree = {
 		}
 
 		bypass = {
-			OR = {
-				NOT = { country_exists = MAN }
-				MAN = { has_government = democratic }
-			}
+			NOT = { country_exists = MAN }
+			MAN = { has_government = democratic }
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
 
 		completion_reward = {
 			if = {
@@ -3949,6 +3923,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			add_to_tech_sharing_group = JAP_ultimate_deterrence
 			every_country = {
@@ -3986,6 +3964,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			USA = { country_event = { id = wtt_japan.104 days = 1 } }
 		}
@@ -4005,7 +3987,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -4034,6 +4016,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
+
 		completion_reward = {
 			MAN = {				
 				add_stability = 0.1
@@ -4051,7 +4037,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_the_manchurian_project
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -4107,7 +4093,7 @@ focus_tree = {
 			MAN = { has_focus_tree = generic_focus }
 		}
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -4159,7 +4145,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_the_manchurian_project
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -4248,7 +4234,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_expand_manchurian_railways
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -4293,7 +4279,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_expand_manchurian_railways
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -4339,7 +4325,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = JAP_expand_manchurian_railways
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -4381,7 +4367,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_the_manchurian_project 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -4437,7 +4423,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = JAP_the_manchurian_project 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -4464,7 +4450,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			army_experience = 30
+			army_experience = 50
 		}
 	}
 
@@ -5132,6 +5118,7 @@ focus_tree = {
 				uses = 1
 				category = shbb_tech	
 			}
+					navy_experience = 100
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
@@ -5212,7 +5199,13 @@ focus_tree = {
 				bonus = 0.50
 				uses = 2
 				category = cat_base_strike
-			}
+			}	
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.50
+				uses = 1
+				technology = improved_carrier
+			}	
 		}
 	}
 
