@@ -8,6 +8,8 @@ state={
 	
 	resources={
 		oil=70 # was: 126
+		steel=28
+		aluminium=22
 	}
 
 	history={

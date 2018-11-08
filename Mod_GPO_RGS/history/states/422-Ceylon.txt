@@ -7,14 +7,12 @@ state=
 	state_category = rural
 
 	resources={
-		rubber=60 # was: 116
+		rubber=70 # was: 116
 	}
 
 	history={
 		owner = ENG
-		victory_points = {
-			10201 3 
-		}
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

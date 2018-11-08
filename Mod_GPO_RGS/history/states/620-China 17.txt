@@ -1,7 +1,10 @@
 state={
 	id=620
-	name="STATE_620"
-
+	name="STATE_620" # Hubei
+	resources={
+		steel=6
+		rubber=2
+	}
 	history={
 		owner = CHI
 		add_core_of = CHI

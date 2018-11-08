@@ -3,6 +3,9 @@ state={
 	id=500
 	name="STATE_500"
 	manpower = 6665500
+	resources={
+		aluminium=44
+	}
 	
 	state_category = large_city
 	

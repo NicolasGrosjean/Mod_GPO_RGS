@@ -3,7 +3,10 @@ state={
 	id=681
 	name="STATE_681" # Cape
 	manpower = 1637178
-
+	resources={
+		steel=46
+	}
+	
 	state_category = town
 
 	history={

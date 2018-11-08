@@ -1,6 +1,10 @@
 state={
 	id=616
-	name="STATE_616"
+	name="STATE_616" # Ningxia
+	resources={
+		steel=2
+		tungsten=4
+	}
 
 	history={
 		owner = XSM

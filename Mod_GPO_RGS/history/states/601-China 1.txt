@@ -12,8 +12,11 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
-
+				}
+		victory_points = {
+			5102 50 
 		}
+		
 		1939.1.1 = {
 			buildings = {
 				infrastructure = 2
