@@ -23,6 +23,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 151	# Historical outbreak time after elections
+		modifier = {
+			factor = 0.01
+			date > 1936.7.1
+		}
 	}
 	
 	option = { # Support Nationalists
