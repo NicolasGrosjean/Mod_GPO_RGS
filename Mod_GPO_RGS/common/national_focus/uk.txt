@@ -2637,6 +2637,48 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = uk_protect_the_dutch_colonies
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = uk_sanction_japan_focus }
+		prerequisite = { focus = peninsular_focus }
+		prerequisite = { focus = hk_air_focus }
+		x = 15
+		y = 7
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = { has_war_with = HOL }
+			HOL = { has_capitulated = yes }
+		}
+		
+		bypass = {
+			INS = {
+				NOT = { is_puppet_of = HOL }
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			puppet = INS
+		}
+
+		completion_reward = {
+			country_event = { id = tfv_australia.11 }	
+			effect_tooltip = {
+				puppet = INS
+			}
+		}
+	}
+
 
 	focus = {
 		id = singapore_focus

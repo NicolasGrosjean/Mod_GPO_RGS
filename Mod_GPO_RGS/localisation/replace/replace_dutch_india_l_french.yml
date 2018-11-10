@@ -1,0 +1,9 @@
+﻿l_french:
+ tfv_australia.11.t:0 "Cession des possessions néerlandaises (ou britanniques)"
+ tfv_australia.11.d:0 "Les troupes [Root.GetAdjFP] se tenaient prêtes à assurer la protection de toutes les possessions néerlandaises en Asie du Sud-Est.\n\nSi certaines formes de résistance locale ont été constatées lors du transfert d'autorité, la plupart des [INS.GetHabitants], craignant les agressions étrangères, ont toutefois reconnu le besoin que leur défense soit assurée par [Root.GetLeLaLNP] [Root.GetName]."
+ tfv_australia.11.a:0 "[Root.GetLeLaLNPCap] [Root.GetName] fer[Root.GetAOntNP]\ntout le nécessaire"
+ news.240.d:0 "\nLes gouvernements [Root.GetDuDelaDelNP] [Root.GetName] et [HOL.GetDuDelaDelNP] [HOL.GetName] ont annoncé aujourd'hui la mise en place d'un « Pacte de coopération et de défense conjointe », transférant la défense des possessions coloniales [HOL.GetAdjFP] en Asie du Sud-Est aux forces armées [Root.GetAdjFP].\n¤ ¤Le traité a été signé par le gouverneur [INS.GetDuDeDNP] [INS.GetName] et [Root.GetLeLaLDir] [Root.GetLeader], qui ont annoncé que l'accord concernait l'ensemble de l'administration coloniale, du fait d'une situation européenne « lointaine et dangereuse ».\n¤ ¤Le gouvernement [HOL.GetAdjMS] n'a, quant à lui, fait aucun commentaire sur le sujet."
+ news.240.a:0 "Tout cela est fort surprenant"
+ news.240.b:0 "Il en allait de notre survie"
+ news.240.c:0 "[Root.GetLeLaLNPCap] [Root.GetName] mont[Root.GetEEntNP]\nla garde dans le Pacifique"
+ 
