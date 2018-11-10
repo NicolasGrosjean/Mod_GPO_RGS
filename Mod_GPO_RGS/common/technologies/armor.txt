@@ -477,6 +477,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1941
 		
+		allow = {
+			date > 1939.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -510,6 +514,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 	
 		ai_will_do = {
 			factor = 0.1
@@ -528,6 +536,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -612,6 +624,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1939
+		
+		allow = {
+			date > 1937.1.1 
+		}	
 
 		
 		ai_will_do = {
@@ -673,6 +689,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1939
 		
+		allow = {
+			date > 1937.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 
@@ -715,6 +735,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1939
+		
+		allow = {
+			date > 1937.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -816,6 +840,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 
 		ai_will_do = {
 			factor = 1
@@ -876,6 +904,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1941
 		
+		allow = {
+			date > 1939.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 
@@ -918,6 +950,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -1006,6 +1042,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -1065,6 +1105,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 
@@ -1107,6 +1151,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1943
+		
+		allow = {
+			date > 1941.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -1185,6 +1233,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1945
 		
+		allow = {
+			date > 1943.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -1218,6 +1270,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1945
 		
+		allow = {
+			date > 1943.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -1250,6 +1306,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1945
+		
+		allow = {
+			date > 1943.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -1502,6 +1562,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1941
 		
+		allow = {
+			date > 1939.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 0
 
@@ -1529,6 +1593,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -1558,6 +1626,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1941
+		
+		allow = {
+			date > 1939.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -1645,6 +1717,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 0
 
@@ -1673,6 +1749,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 0
 
@@ -1700,6 +1780,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1943
+		
+		allow = {
+			date > 1941.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
@@ -1763,6 +1847,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 0
 		}
@@ -1781,6 +1869,10 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1943
 		
+		allow = {
+			date > 1941.1.1 
+		}	
+		
 		ai_will_do = {
 			factor = 0
 		}
@@ -1798,6 +1890,10 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1943
+		
+		allow = {
+			date > 1941.1.1 
+		}	
 		
 		ai_will_do = {
 			factor = 0
