@@ -1,0 +1,8 @@
+﻿l_english:
+ tfv_australia.11.t:0 "The Netherlands (or the UK) Cedes Protectorates"
+ tfv_australia.11.d:0 "[Root.GetAdjective] troops stood ready to assume responsibilities for the protection of all Netherlands territory in Southeast Asia.\n\nWhile some local resistance was met in the transfer, fear of foreign aggression ensures that most recognize the need for [Root.GetAdjective] defense."
+ tfv_australia.11.a:0 "[Root.GetNameDefCap] will do what she must."
+ news.240.d:0 "The [USA.GetAdjective] and [HOL.GetAdjective] government today announced a "Joint Cooperation and Defense Pact" that will see the [HOL.GetAdjective] colonial holdings in Southeast Asia placed under the protection of the [USA.GetAdjective] armed forces. The treaty was signed by the Dutch governor of Indonesia and [USA.GetLeader], who announced that the deal will include full colonial administration, due to the "distant and challenging situation in Europe."\n\nThe [HOL.GetAdjective] government has issued no statement on the treaty."
+ news.240.a:0 "This comes as a surprise."
+ news.240.b:0 "One does what one must to survive."
+ news.240.c:0 "[USA.GetNameDefCap] watches over the Pacific."
