@@ -2641,8 +2641,6 @@ focus_tree = {
 		id = uk_protect_the_dutch_colonies
 		icon = GFX_goal_generic_defence
 		prerequisite = { focus = uk_sanction_japan_focus }
-		prerequisite = { focus = peninsular_focus }
-		prerequisite = { focus = hk_air_focus }
 		x = 15
 		y = 7
 
