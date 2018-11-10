@@ -1,0 +1,44 @@
+Mod created and used by the French community RGS (Reseau Gamer & Strategy) for GPO (Great Party Online)
+
+[h1]Modifications[/h1]
+[list]
+[*] Limit rush of key technologies at 2 years
+[*] Add a focus to puppet Dutch East India for the UK and the US
+[*] Remove naval strike to TACs
+[*] Remove fortification effects to siege artillery order
+[*] Increase last stand order strength damages
+[*] Spanish civil war starts before mid July
+[*] Increase resource number
+[*] Remove some victory points
+[*] Increase building slots get by technologies
+[*] Modify ship stats
+[*] Remove some fortification focus
+[*] Add Italian advisors
+[*] Improve Germany boost for Barbarossa
+[*] Remove war support conditions for conscription laws
+[*] Reduce ship production with isolation economy law
+[*] Reduce timeout for Barbarossa
+[*] Increase max factory and dockyard number by province
+[*] Reduce max coastal bunker number by province
+[*] Add a government exile mod
+[/list]
+
+[h1]Available languages[/h1]
+[list]
+[*] English
+[*] French
+[/list]
+
+[h1]Links[/h1]
+[list]
+[*] [url=http://forum.reseau-js.com/forum/501-hearts-of-iron-4-organisation-de-parties-multijoueurs-gpo/]RGS forum[/url]
+[*] [url=http://www.jeux-strategie.com/]Jeux-Strategie.com website[/url]
+[*] [url=https://github.com/NicolasGrosjean/Mod_GPO_RGS]Mod GitHub[/url]
+[/list]
+
+[h1]Credits[/h1]
+[list]
+[*] Julien de la Normandie
+[*] Kahboom
+[*] Mouchi, new contributor for the 2.1 version
+[/list]
