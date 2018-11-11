@@ -37,6 +37,7 @@ Contact Mouchi on the forum or on Discord
 
 ## Changelog
 
+- Change a required Chinese province for a Japan focus
 - Limit rush of key technologies at 2 years
 - Add a focus to puppet Dutch East India for the UK and the US
 - Remove naval strike to TACs
