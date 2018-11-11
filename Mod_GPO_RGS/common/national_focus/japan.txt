@@ -1260,7 +1260,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_full_control_of_state = 605
+			has_full_control_of_state = 603
 			has_full_control_of_state = 325
 		}
 
@@ -1277,7 +1277,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			605 = {
+			603 = {
 				add_resource = {
 					type = aluminium
 					amount = 8
