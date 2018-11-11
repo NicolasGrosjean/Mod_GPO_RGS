@@ -1,5 +1,6 @@
 # Mod GPO RGS
 
+![alt text](thumb.jpg "Description image of the mod")
 
 ## Presentation
 
@@ -34,7 +35,7 @@ Contact Mouchi on the forum or on Discord
 - 2) We will implement your ideas
 
 
-##Changelog
+## Changelog
 
 - Limit rush of key technologies at 2 years
 - Add a focus to puppet Dutch East India for the UK and the US
