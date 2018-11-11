@@ -1,6 +1,6 @@
 # Mod GPO RGS
 
-![alt text](thumb.jpg "Description image of the mod")
+<img src="/thumb.jpg" data-canonical-src="/thumb.jpg" alt="Description image of the mod" width="400" height="400" />
 
 ## Presentation
 
