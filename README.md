@@ -1,5 +1,9 @@
 # Mod GPO RGS
 
+> Version 2.1.4 compatible for HoI4 1.5.4
+
+For the reboot of this mod with Man the Guns, see [this repository](https://github.com/NicolasGrosjean/Mod_GPO_RGS2).
+
 <img src="/thumb.jpg" data-canonical-src="/thumb.jpg" alt="Description image of the mod" width="400" height="400" />
 
 ## Presentation
